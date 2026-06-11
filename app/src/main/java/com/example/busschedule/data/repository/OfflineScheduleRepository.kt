@@ -1,7 +1,7 @@
 package com.example.busschedule.data.repository
 
-import com.example.busschedule.data.BusSchedule
-import com.example.busschedule.data.BusScheduleDao
+import com.example.busschedule.data.database.BusSchedule
+import com.example.busschedule.data.database.BusScheduleDao
 import kotlinx.coroutines.flow.Flow
 
 class OfflineScheduleRepository(private val scheduleDao: BusScheduleDao): ScheduleRepository {
