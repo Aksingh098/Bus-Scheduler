@@ -5,5 +5,5 @@ import kotlinx.coroutines.flow.Flow
 
 interface ScheduleRepository {
     fun getAllItemsStream(): Flow<List<BusSchedule>>
-    fun getItemStream(stopName: String): Flow<BusSchedule?>
+    fun getItemStream(stopName: String): Flow<List<BusSchedule>>
 }
